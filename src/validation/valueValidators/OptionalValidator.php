@@ -26,18 +26,10 @@ class OptionalValidator implements ValueValidatorInterface
      */
     public function isValid($value)
     {
-        if ('' === $value) {
+        if ('' === $value || NULL === $value) {
             return TRUE;
         }
         return $this->_validator->isValid($value);
-    }
-
-    /**
-     * @return string
-     */
-    public function getErrorMessage()
-    {
-        return $this->_validator->getErrorMessage();
     }
 
 }
