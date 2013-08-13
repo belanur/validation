@@ -9,7 +9,7 @@ spl_autoload_register(
             $classes = array(
                 'belanur\\validation\\abstractvalidator' => '/validation/AbstractValidator.php',
                 'belanur\\validation\\notemptyvalidator' => '/validation/valueValidators/NotEmptyValidator.php',
-                'belanur\\validation\\registrationvalidator' => '/validation/RegistrationValidator.php',
+                'belanur\\validation\\optionalvalidator' => '/validation/valueValidators/OptionalValidator.php',
                 'belanur\\validation\\validatorinterface' => '/validation/ValidatorInterface.php',
                 'belanur\\validation\\valuevalidatorinterface' => '/validation/valueValidators/ValueValidatorInterface.php'
             );

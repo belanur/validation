@@ -1,6 +1,10 @@
 <?php
 namespace belanur\validation;
 
+/**
+ * Class AbstractValidator
+ * @package belanur\validation
+ */
 abstract class AbstractValidator implements ValidatorInterface
 {
     /**

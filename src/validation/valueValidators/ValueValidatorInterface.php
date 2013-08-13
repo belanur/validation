@@ -8,9 +8,4 @@ interface ValueValidatorInterface
      * @return bool
      */
     public function isValid($value);
-
-    /**
-     * @return string
-     */
-    public function getErrorMessage();
 }

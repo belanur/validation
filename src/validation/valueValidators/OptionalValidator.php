@@ -1,6 +1,10 @@
 <?php
 namespace belanur\validation;
 
+/**
+ * Class OptionalValidator
+ * @package belanur\validation
+ */
 class OptionalValidator implements ValueValidatorInterface
 {
     /**

@@ -1,6 +1,10 @@
 <?php
 namespace belanur\validation;
 
+/**
+ * Class ValidatorInterface
+ * @package belanur\validation
+ */
 interface ValidatorInterface
 {
     /**
